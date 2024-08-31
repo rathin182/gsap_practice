@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+#page1,#page2,#page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw 0;
+}
+#move{
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+    background-color: #d9ff06;
+}
+
+.marque h1{
+    font-size: 4vw;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 1.5vw;
+    transform: translateX(-100%)
+}
+.marque img{
+    height: 3vw;
+}

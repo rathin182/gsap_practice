@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#string{
+    width: 100%;
+    height: 500px;
+    /* background-color: orangered; */
+}
